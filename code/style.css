@@ -1,0 +1,186 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hulpverlener-foto {
+    background-image: url("https://www.zorgwelzijn.nl/content/uploads/sites/4/2020/03/iStock-479224144.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  .card .card-header {
+    background-color: #2cd4b8;
+  }
+  .card .card-header h2 {
+    color: white;
+  }
+  .card .btn-primary {
+    background-color: #2cd4b8;
+    border: none;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .yarrag {
+    height: 100vh;
+  }
+
+  .person {
+    position: relative;
+    left: 9.4em;
+    top: 25em;
+  }
+
+  .polygon{
+    position: relative;
+    left: 11.3em;
+    top: 26em;
+  }
+
+  .whole-p {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .shield {
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    position: relative;
+    left: 9.6em;
+    bottom: 4.3em;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .shield .text {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    margin-top: 15px;
+  }
+
+  .dropyarrak {
+    color: #2cd4b8;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+    float: right;
+    position: relative;
+    bottom: 6.3em;
+  }
+
+  .achtergrondVanDrop {
+    color: #2cd4b8;
+  }
+
+  .besturen {
+    padding: 0;  
+    margin: 0;
+    position: relative;
+    left: 4.2em;
+    top: 32.8em;
+    display: inline-block;
+    align-items: center;
+  }
+
+  .besturen .mainbestuur {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 9.8px;
+  }
+  
+  .up {
+    position: relative;
+    top: 27.2em;
+    left: 11.6em;
+  }
+
+  .down {
+    position: relative;
+    top: 32.5em;
+    left: 10em;
+  }
+
+  .left {
+    position: relative;
+    top: 29.9em;
+    left: 4.6em;
+  }
+
+  .right {
+    position: relative;
+    top: 29.9em;
+    left: 11.2em;
+  }
+
+  .container-index {
+    position: relative;
+  }
+
+  .zwaarden {
+    overflow: hidden;
+    position: absolute;
+    width: 375px;
+    top: 670px;
+    /* background-color: green; */
+  }
+
+  .zwaardlinks {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 250px;
+    transform: rotate(173deg);
+  }
+
+  .zwaardrechts {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -139px;
+  }
+
+  .vergrootglas {
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    transform: rotate(20deg);
+  }
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
